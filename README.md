@@ -1,4 +1,4 @@
-# GenIE
+# GenIE - Generative Intelligence Engine
 ## Create venv
 python -m venv venv_genie
 
