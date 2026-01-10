@@ -1,0 +1,16 @@
+22:56:37 INFO genie.log_setup(setup_logging:91) Logging initialized - Log file: logs\genie_20260110_225637.log
+22:56:37 INFO __main__(<module>:12) Starting Genie Agent service
+22:56:43 INFO genie.config_loader(load_config:45) Config keys loaded: ['log_level', 'log_retention_days', 'max_tokens_in_memory', 'mcp', 'identity_provider', 'region']
+22:56:43 INFO root(<module>:55) mcp_config: {'ztpfgi_help': {'transport': 'streamable_http', 'url': 'http://172.16.4.129:8000/mcp'}}
+22:56:43 INFO genie.agent.api.routes(calculate_processing_time:42) Processing time: <function create_routes.<locals>.root at 0x000002A5A64149A0>
+22:56:43 INFO genie.agent.api.routes(calculate_processing_time:42) Processing time: <function create_routes.<locals>.health at 0x000002A5A6414CC0>
+22:56:43 INFO genie.agent.api.routes(calculate_processing_time:42) Processing time: <function create_routes.<locals>.clear_memory at 0x000002A5A6414F40>
+22:56:43 INFO genie.agent.api.routes(calculate_processing_time:42) Processing time: <function create_routes.<locals>.update_model at 0x000002A5A64154E0>
+22:56:43 INFO genie.agent.api.routes(calculate_processing_time:42) Processing time: <function create_routes.<locals>.ask_question at 0x000002A5A6415760>
+22:56:43 INFO genie.agent.api.routes(calculate_processing_time:42) Processing time: <function create_routes.<locals>.list_registry_profile_names at 0x000002A5A6415D00>
+22:56:43 INFO genie.agent.api.routes(calculate_processing_time:42) Processing time: <function create_routes.<locals>.save_memory at 0x000002A5A6416020>
+22:56:43 INFO genie.agent.api.routes(calculate_processing_time:42) Processing time: <function create_routes.<locals>.load_memory at 0x000002A5A6416340>
+22:56:43 INFO __main__(<module>:20) Starting Genie Agent server on 0.0.0.0:8000
+22:56:43 INFO genie.agent.core.agent_service(initialize:68) Loading MCP tools...
+22:56:44 DEBUG mcp.client.streamable_http(streamable_http_client:649) Connecting to StreamableHTTP endpoint: http://172.16.4.129:8000/mcp
+22:56:44 DEBUG mcp.client.streamable_http(post_writer:547) Sending client message: root=JSONRPCRequest(method='initialize', params={'protocolVersion': '2025-11-25', 'capabilities': {}, 'clientInfo': {'name': 'mcp', 'version': '0.1.0'}}, jsonrpc='2.0', id=0)

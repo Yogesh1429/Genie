@@ -10,8 +10,8 @@ if __name__ == "__main__":
     setup_logging()
     logger = logging.getLogger(__name__)
     logger.info("Starting Genie Agent service")
-    os.environ["APP_CONFIG_FILE"] = "C:/Users/Arun.Kumar/Documents/TPF Software/ZTPFGI/GISystem/app_config.json"
-    os.environ["providers_file"] = "c:\\GenIE-AI\\config\\providers.json"
+    os.environ["APP_CONFIG_FILE"] = "C:\\Users\\Yogesh\\app_config.json"
+    os.environ["providers_file"] = "C:\\Users\\Yogesh\\providers.json"
     from genie.agent.main import app
     import uvicorn
     

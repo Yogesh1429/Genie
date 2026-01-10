@@ -1,0 +1,2 @@
+22:22:39 INFO genie.log_setup(setup_logging:91) Logging initialized - Log file: logs\genie_20260110_222239.log
+22:22:39 INFO __main__(<module>:12) Starting Genie Agent service
